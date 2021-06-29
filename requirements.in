@@ -1,0 +1,10 @@
+dask
+dask[complete]
+pandas
+us==2.0.2
+graphviz
+
+jupyterlab==3.0.16
+ipywidgets==7.6.3 # for progress bar
+jupyter-resource-usage # for resource usage bar
+jupyterlab_widgets
