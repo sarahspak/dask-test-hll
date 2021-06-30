@@ -6,3 +6,5 @@ data/**/*.csv
 data/**/*.zip
 data/**/.ipynb_checkpoints/
 __pycache__
+
+dask-worker-space/**
