@@ -35,7 +35,9 @@ cffi==1.14.5
 chardet==4.0.0
     # via requests
 click==8.0.1
-    # via distributed
+    # via
+    #   distributed
+    #   pip-tools
 cloudpickle==1.6.0
     # via
     #   dask
@@ -64,6 +66,8 @@ fsspec==2021.6.1
     # via dask
 graphviz==0.16
     # via -r requirements.in
+greenlet==1.1.0
+    # via sqlalchemy
 heapdict==1.0.1
     # via zict
 idna==2.10
@@ -76,6 +80,8 @@ importlib-metadata==4.6.0
     # via
     #   click
     #   jsonschema
+    #   pep517
+    #   sqlalchemy
 ipykernel==5.5.5
     # via
     #   ipywidgets
@@ -193,12 +199,16 @@ parso==0.8.2
     # via jedi
 partd==1.2.0
     # via dask
+pep517==0.10.0
+    # via pip-tools
 pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
 pillow==8.2.0
     # via bokeh
+pip-tools==6.2.0
+    # via -r requirements.in
 prometheus-client==0.11.0
     # via
     #   jupyter-resource-usage
@@ -265,6 +275,8 @@ sniffio==1.2.0
     # via anyio
 sortedcontainers==2.4.0
     # via distributed
+sqlalchemy==1.4.20
+    # via -r requirements.in
 tblib==1.7.0
     # via distributed
 terminado==0.10.1
@@ -273,6 +285,8 @@ terminado==0.10.1
     #   notebook
 testpath==0.5.0
     # via nbconvert
+toml==0.10.2
+    # via pep517
 toolz==0.11.1
     # via
     #   dask
@@ -317,12 +331,17 @@ webencodings==0.5.1
     # via bleach
 websocket-client==1.1.0
     # via jupyter-server
+wheel==0.36.2
+    # via pip-tools
 widgetsnbextension==3.5.1
     # via ipywidgets
 zict==2.0.0
     # via distributed
 zipp==3.4.1
-    # via importlib-metadata
+    # via
+    #   importlib-metadata
+    #   pep517
 
 # The following packages are considered to be unsafe in a requirements file:
+# pip
 # setuptools
