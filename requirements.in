@@ -8,3 +8,5 @@ jupyterlab==3.0.16
 ipywidgets==7.6.3 # for progress bar
 jupyter-resource-usage # for resource usage bar
 jupyterlab_widgets
+pip-tools # for requirements.in
+sqlalchemy

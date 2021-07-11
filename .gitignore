@@ -7,4 +7,6 @@ data/**/*.zip
 data/**/.ipynb_checkpoints/
 __pycache__
 
+dask-worker-space/
 dask-worker-space/**
+mydask.png
